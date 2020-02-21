@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>SHOP</title>
+    <link rel="stylesheet" href="js/swiper.css">
+</head>
+<header>
+	<!--logo画像-->
+	<a href="index.html"><img src="shop.png"></a>
+</header>
+
+<body>
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <!--    	
+      <div class="swiper-slide"><img src="https://haniwaman.com/wp-content/uploads/2018/05/swiper01.png" alt="Swiper01"></div>
+      <div class="swiper-slide"><img src="https://haniwaman.com/wp-content/uploads/2018/05/swiper02.png" alt="Swiper02"></div>
+      <div class="swiper-slide"><img src="https://haniwaman.com/wp-content/uploads/2018/05/swiper03.png" alt="Swiper03"></div>
+      !-->
+      <div class="swiper-slide"><img src="image/top/sale.png" alt="sale1"></div>
+      <div class="swiper-slide"><img src="image/top/salepengin.png" alt="sale2"></div>
+      <div class="swiper-slide"><img src="image/top/salekonbini.png" alt="sale3"></div>
+    </div>
+    <div class="swiper-pagination"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  </div>
+
+<script src="js/swiper.js"></script>
+<script>
+	var swiper = new Swiper('.swiper-container', {
+  		navigation: {
+    		nextEl: '.swiper-button-next',
+    		prevEl: '.swiper-button-prev',
+  		},
+  		loop: true,
+  		pagination: {
+  			el: '.swiper-pagination',
+  			type: 'bullets',
+  			clickable: true,
+  		},
+  		autoplay: {
+  			delay: 3000,
+  			disableOnInteraction: true
+  		},
+});
+</script>
+
+<br><br><br><br>
+
+<a href="tops.html" class="btn-flat-border">トップス</a>
+<a href="jacket.html" class="btn-flat-border">ジャケット</a><br><br>
+<a href="pants.html" class="btn-flat-border">パンツ</a>
+<a href="shoes.html" class="btn-flat-border">シューズ</a>
+
+</doby>
+</html>

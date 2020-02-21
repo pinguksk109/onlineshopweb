@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <title>SHOP</title>
+</head>
+
+<header>
+	<!--logo画像-->
+	<h1 class="logo">
+		<!-- <img src="./shop.png"> -->
+		SHOP
+	</h1>
+</header>
+
+<doby>
+
+<br><br><br>
+
+<a href="tops.html" class="btn-border-bottom">トップス</a>&nbsp;&nbsp;&nbsp;
+<a href="jacket.html" class="btn-border-bottom">ジャケット</a>&nbsp;&nbsp;&nbsp;
+<a href="pants.html" class="btn-border-bottom">パンツ</a>&nbsp;&nbsp;&nbsp;
+<a href="shoes.html" class="btn-border-bottom">シューズ</a>
+
+<br><br>
+
+<h3>選んだ服を選択してください</h3>
+<input type="radio" name="mono" value="tops1" action="kakunin.php">トップス1
+<input type="radio" name="mono" value="tops2" action="kakunin.php">トップス2
+<br>
+<input type="radio" name="mono" value="jacket1" action="kakunin.php">ジャケット1
+<input type="radio" name="mono" value="jacket2" action="kakunin.php">ジャケット2
+<br>
+<input type="radio" name="mono" value="pants1" action="kakunin.php">パンツ1
+<input type="radio" name="mono" value="pants2" action="kakunin.php">パンツ2
+<br>
+<input type="radio" name="mono" value="shoes1" action="kakunin.php">シューズ1
+<input type="radio" name="mono" value="shoes2" action="kakunin.php">シューズ2
+<br>
+
+<h3>名前を入力してください</h3>
+<form name="name_form" method="POST">
+お名前：<input type="text" name="name_text">
+
+<h3>住所を入力してください</h3>
+<form name="address_form" method="POST">
+住所：<input type="text" name="address_text">
+
+<h3>支払い方法を選択してください</h3>
+<input type="radio" name="pay" value="konbini">コンビニ支払い
+<input type="radio" name="pay" value="tyakubarai">着払い
+<p>コンビニ支払いは、ローソンとファミリーマートで支払いが可能です。<br>着払いは、着払手数料として300円かかります。</p>
+
+<a href="kakunin.php" class="btn-gradient-radius">確認へ</a>
+
+<br><br>
+
+<a href="index.html" class="btn-gradient-radius">トップに戻る</a>
+
+</doby>
+</html>
+
+
