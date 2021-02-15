@@ -12,7 +12,7 @@
 	<a href="index.html"><img src="shop.png"></a>
 </header>
 
-<doby>
+<body>
 
 <br><br><br>
 
@@ -44,5 +44,5 @@
 
 <a href="index.html" class="btn-gradient-radius">トップに戻る</a>
 
-</doby>
+</body>
 </html>
